@@ -8,16 +8,28 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
+    <link rel="icon" type="image" href="images/small.png" />
     <title>Google</title>
   </head>
   <body>
     <header>
       <div class="navbar">
-        <a href="index.html">Firmast</a>
-        <a href="index.html">Google Pood</a>
-        <a href="index.html">Gmail</a>
-        <a href="index.html">Pildid</a>
-        <button class="material-symbols-outlined searchbar-icons">apps</button>
+        <a
+          href="index.html"
+          class="link-items link-items-left"
+          id="firmast-link-item"
+          >Firmast</a
+        >
+        <a href="index.html" class="link-items link-items-left">Google Pood</a>
+        <div class="separator"></div>
+        <a href="index.html" class="link-items">Gmail</a>
+        <a href="index.html" class="link-items">Pildid</a>
+        <button
+          class="material-symbols-outlined searchbar-icons"
+          id="menu-button"
+        >
+          apps
+        </button>
         <button id="login-button">Logi Sisse</button>
       </div>
     </header>
@@ -57,6 +69,22 @@
         <a href="index.html" class="offered-language">eesti</a>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <p id="lang">Eesti</p>
+      <hr class="footer-separator" />
+      <div id="footer-container">
+        <div class="footer-links" id="footer-links-left">
+          <a href="index.html" class="link-items footer-link-items">Reklaamimine</a>
+          <a href="index.html" class="link-items footer-link-items">Ettevõte</a>
+          <a href="index.html" class="link-items footer-link-items">Kuidas otsing töötab?</a>
+        </div>
+        <div class="separator"></div>
+        <div class="footer-links">
+          <a href="index.html" class="link-items footer-link-items">Privaatsus</a>
+          <a href="index.html" class="link-items footer-link-items">Tingimused</a>
+          <a href="index.html" class="link-items footer-link-items">Eelistused</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
